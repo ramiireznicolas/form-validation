@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- css propio -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario de Alumno</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Crear cuenta de alumno</h1>
+        <form action="" class="form" id="form">
+
+            <div class="form-control">
+                <label for=""> Nombre de usuario:
+                    <input type="text" name="" id="username" placeholder="Juan Perez">
+                    <i class="fas fa-check-circle success"></i>
+                    <i class="fas fa-exclamation-circle error"></i>
+                    <small></small>
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label for=""> Email:
+                    <input type="text" name="" id="email" placeholder="juan@perez.com">
+                    <i class="fas fa-check-circle success"></i>
+                    <i class="fas fa-exclamation-circle error"></i>
+                    <small>Error!</small>
+                </label>
+            </div>
+
+            <div class="form-control"> Varita:
+                <select name="wand" id="wand">
+                    <option value="madera de tejo">Madera de tejo</option>
+                    <option value="pelo de unicornio">Pelo de unicornio</option>
+                    <option value="vid">Vid</option>
+                    <option value="acebo con pluma de fenix">Acebo con pluma de fenix</option>
+                    <option value="otra">Otra</option>
+                </select>
+                <i class="fas fa-check-circle success"></i>
+                <i class="fas fa-exclamation-circle error"></i>
+                <small>Error!</small>
+            </div>
+
+            <div class="form-control">
+                <label for=""> Password:
+                    <input type="password" name="" id="pass" placeholder="****">
+                    <i class="fas fa-check-circle success"></i>
+                    <i class="fas fa-exclamation-circle error"></i>
+                    <small>Error!</small>
+                </label>
+            </div>
+
+            <div class="form-control">
+                <label for=""> Repita su password:
+                    <input type="password" name="" id="pass2" placeholder="****">
+                    <i class="fas fa-check-circle success"></i>
+                    <i class="fas fa-exclamation-circle error"></i>
+                    <small>Error!</small>
+                </label>
+            </div>
+
+            <button class="btn">Enviar!</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
